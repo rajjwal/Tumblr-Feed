@@ -13,6 +13,7 @@
 		DDB966F21E43C7B6003C9411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB966F01E43C7B6003C9411 /* Main.storyboard */; };
 		DDB966F41E43C7B6003C9411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB966F31E43C7B6003C9411 /* Assets.xcassets */; };
 		DDB966FF1E43CB9B003C9411 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB966FE1E43CB9B003C9411 /* PhotosViewController.swift */; };
+		DDFA5B121E51262500B2BFEA /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFA5B111E51262500B2BFEA /* PhotoDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DDB966F31E43C7B6003C9411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDB966F81E43C7B6003C9411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDB966FE1E43CB9B003C9411 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		DDFA5B111E51262500B2BFEA /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				DDB966FE1E43CB9B003C9411 /* PhotosViewController.swift */,
+				DDFA5B111E51262500B2BFEA /* PhotoDetailsViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDFA5B121E51262500B2BFEA /* PhotoDetailsViewController.swift in Sources */,
 				DDB966ED1E43C7B6003C9411 /* AppDelegate.swift in Sources */,
 				DD50F01A1E43DD5900BC4682 /* PhotoCell.swift in Sources */,
 				DDB966FF1E43CB9B003C9411 /* PhotosViewController.swift in Sources */,
